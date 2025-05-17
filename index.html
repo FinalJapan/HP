@@ -6,7 +6,8 @@
     <title>ポートフォリオ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
     <meta name="description" content="AIアプリ開発者のポートフォリオサイト。教育や革新的なユーザー体験を提供するAIアプリを開発しています。">
 </head>
 <body>
@@ -68,16 +69,20 @@
                 <i class="fas fa-code"></i>
                 <h3>Frontend</h3>
                 <br>
+                <div class="tech-tags-container">
                 <span class="tech-tag">HTML/CSS/JavaScript</span>
                 <span class="tech-tag">React</span>
+                </div>
             </div>
             <div class="skill-card tilt-card fade-in-section">
                 <i class="fas fa-server"></i>
                 <h3>Backend</h3>
                 <br>
-                <span class="tech-tag">flask</span>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Node.js</span>
+                <div class="tech-tags-container">
+                    <span class="tech-tag">flask</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Node.js</span>
+                </div>
             </div>
         </div>
     </section>
@@ -91,9 +96,9 @@
                 </div>
                 <div class="project-info">
                     <h3>3D AIアシスタント</h3>
-                    <p>Gemini APIとThree.jsを組み合わせた次世代の対話型アシスタントです。
-                    リアルタイムの天気情報取得、ニュース要約、ウェブページコンテンツの解析など、
-                    高度な機能を3Dキャラクターとのナチュラルな対話を通じて提供します。</p>
+                    <h2>開発期間：約一か月</h2>
+                    <p>Geminiと3Dモデルを組み合わせた次世代の対話型アシスタントです。<br>
+                    リアルタイムの天気情報取得、ニュース取得、ウェブページコンテンツの要約の機能があります。</p>
                     <div class="tech-stack">
                         <span class="tech-tag">Gemini API</span>
                         <span class="tech-tag">Python</span>
@@ -110,14 +115,19 @@
 
             <div class="project-card fade-in-section">
                 <div class="project-image">
-                    <img src="assets/project2.jpg" alt="AI学習アプリ">
+                    <img src="assets/スクリーンショット 2025-05-18 004029.png" alt="AI学習アプリ">
                 </div>
                 <div class="project-info">
-                    <h3>AI学習アプリ</h3>
-                    <p>AIが学習者のレベルに合わせて最適な問題を自動生成。
-                    個々の理解度に応じた学習体験を提供し、効率的な学習をサポートします。</p>
+                    <h3>PP - AIパーソナル学習</h3>
+                    <h2>開発期間：約二日</h2>
+                    <p>AIが問題を自動生成。<br>
+                    記憶による学習効率低下を防ぎ、効率的な学習をサポートします。<br>学習ログに正答率を記録、正答率の悪い問題を重点的に学習できます。</p>
+                    <br>
+                    <p>歴史、数学、英語、国語、理科の5教科に対応予定</p>
                     <div class="tech-stack">
-                        <span class="tech-tag">HTML/CSS/JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">SQLite</span>
                     </div>
                     <div class="project-links">
                         <a href="#" class="project-link interactive">開発中</a>
@@ -131,6 +141,7 @@
                 </div>
                 <div class="project-info">
                     <h3>ガントチャート作成アプリ</h3>
+                    <h2>開発期間：約一週間</h2>
                     <p>直感的な操作で簡単にガントチャートを作成できるWebアプリケーション。
                     プロジェクト管理をよりシンプルかつ効率的にします。
                     ドラッグ＆ドロップでタスクの編集が可能で、進捗状況もリアルタイムで更新できます。</p>
