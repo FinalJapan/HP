@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta name="description" content="AIアプリ開発者のポートフォリオサイト。教育や革新的なユーザー体験を提供するAIアプリを開発しています。">
+</head>
+<body>
+    <div class="wave-container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-outline"></div>
+
+    <header class="glass-nav">
+        <div class="logo masked-text">Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-item interactive">About</a></li>
+                <li><a href="#skills" class="nav-item interactive">Skills</a></li>
+                <li><a href="#projects" class="nav-item interactive">Projects</a></li>
+                <li><a href="#contact" class="nav-item interactive">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero parallax" data-speed="0.5">
+        <h1 class="masked-text fade-in-section" style="font-size: 3.5rem;">Tsuyoshi Tanaka</h1>
+        <p class="fade-in-section" style="font-size: 1.2rem;">AIを通じて<br>教育や革新的なユーザー体験を提供することに<br>情熱を持っています。</p>
+        <a href="#projects" class="cta-button interactive fade-in-section" style="font-size: 1.7rem; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;"><br>→作品を見る</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title masked-text fade-in-section">About Me</h2>
+        <div class="about-content glass-card fade-in-section">
+            <p>AIアプリケーション開発に特化したエンジニアです。<br>
+            教育分野におけるAI活用や、ユーザー体験の向上に情熱を持って取り組んでいます。</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title masked-text fade-in-section">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card tilt-card fade-in-section">
+                <i class="fas fa-brain"></i>
+                <h3>使用ツール</h3>
+                <br>
+                <div class="tech-tags-container">
+                    <span class="tech-tag">Gemini</span>
+                    <span class="tech-tag">chat GPT</span>
+                    <span class="tech-tag">Notion</span>
+                    <span class="tech-tag">Cursor</span>
+                    <span class="tech-tag">GitHubCopilot</span>
+                    <span class="tech-tag">Genspark</span>
+                    <span class="tech-tag">NoteBookLM</span>
+                    <span class="tech-tag">VMagicMirror</span>
+                    <span class="tech-tag">AivisSpeech</span>
+                    <span class="tech-tag">Canva</span>
+                </div>
+            </div>
+            <div class="skill-card tilt-card fade-in-section">
+                <i class="fas fa-code"></i>
+                <h3>Frontend</h3>
+                <br>
+                <span class="tech-tag">HTML/CSS/JavaScript</span>
+                <span class="tech-tag">React</span>
+            </div>
+            <div class="skill-card tilt-card fade-in-section">
+                <i class="fas fa-server"></i>
+                <h3>Backend</h3>
+                <br>
+                <span class="tech-tag">flask</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Node.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title masked-text fade-in-section">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card main-project fade-in-section">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/33WQF8igPFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="project-info">
+                    <h3>3D AIアシスタント</h3>
+                    <p>Gemini APIとThree.jsを組み合わせた次世代の対話型アシスタントです。
+                    リアルタイムの天気情報取得、ニュース要約、ウェブページコンテンツの解析など、
+                    高度な機能を3Dキャラクターとのナチュラルな対話を通じて提供します。</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Gemini API</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">faster_whisper</span>
+                        <span class="tech-tag">AivisSpeech</span>
+                        <span class="tech-tag">flask</span>
+                        <span class="tech-tag">VMagicMirror</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link interactive">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <img src="assets/project2.jpg" alt="AI学習アプリ">
+                </div>
+                <div class="project-info">
+                    <h3>AI学習アプリ</h3>
+                    <p>AIが学習者のレベルに合わせて最適な問題を自動生成。
+                    個々の理解度に応じた学習体験を提供し、効率的な学習をサポートします。</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML/CSS/JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link interactive">開発中</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in-section">
+                <div class="project-image">
+                    <img src="assets/スクリーンショット 2025-05-14 230604.png" alt="ガントチャート">
+                </div>
+                <div class="project-info">
+                    <h3>ガントチャート作成アプリ</h3>
+                    <p>直感的な操作で簡単にガントチャートを作成できるWebアプリケーション。
+                    プロジェクト管理をよりシンプルかつ効率的にします。
+                    ドラッグ＆ドロップでタスクの編集が可能で、進捗状況もリアルタイムで更新できます。</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML/CSS/JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link interactive">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title masked-text fade-in-section">Contact</h2>
+        <div class="contact-container glass-card fade-in-section">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required class="interactive">
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" required class="interactive">
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="message" required class="interactive"></textarea>
+                </div>
+                <button type="submit" class="submit-button interactive">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/FinalJapan" class="social-link interactive" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/Ai1767856647888" class="social-link interactive" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
