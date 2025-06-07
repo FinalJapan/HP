@@ -1,15 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // カスタムカーソル
-    
 
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-        
-        // アウトラインは少し遅れて追従
-        setTimeout(() => {
-            cursorOutline.style.transform = `translate(${e.clientX - 16}px, ${e.clientY - 16}px)`;
-        }, 50);
-    });
 
     // インタラクティブ要素のホバーエフェクト
     const interactiveElements = document.querySelectorAll('.interactive');
