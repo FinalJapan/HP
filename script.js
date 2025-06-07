@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // カスタムカーソル
-    const cursor = document.querySelector('.custom-cursor');
-    const cursorOutline = document.querySelector('.custom-cursor-outline');
+    
 
     document.addEventListener('mousemove', (e) => {
         cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
