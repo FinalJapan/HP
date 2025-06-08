@@ -1,5 +1,3 @@
-
-
     // インタラクティブ要素のホバーエフェクト
     const interactiveElements = document.querySelectorAll('.interactive');
     interactiveElements.forEach(elem => {
@@ -53,4 +51,3 @@
             elem.style.transform = `translateY(${yPos}px)`;
         });
     });
-});
